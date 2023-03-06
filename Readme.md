@@ -1,40 +1,47 @@
-## Hi there, I'm [Shehzad Ahmed][website] ![](https://github.com/egonelbre/gophers/blob/master/animation/2bit-sprite/run.gif)
+## Hi there, I'm [Muhammad Saqlain][website] ![](https://github.com/egonelbre/gophers/blob/master/animation/2bit-sprite/run.gif)
 
 ### I'm a Software Engineer and Entrepreneur!
+
 - Currently working as a Software Engineer at Koderlabs
 - In my spare time, I assist startup in product development and work on my own product ideas
 - I specialize in MERN Stack projects, but also have proficient skills in PHP and MySQL.
 
 ### [Checkout my gists][gist]
 
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
+### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...
 
 ```javascript
 const shehzad = {
-    pronouns: "He" | "Him",
-    code: ["javascript", "react js", "node js", "php"],
-    askMeAbout: ["web dev", "tech", "app dev"],
-    technologies: {
-        frontEnd: {
-            js: ["react", "jquery"],
-            css: ["antd", "mui", "chakra-ui", "bootstrap", "tailwind"]
-        },
-        backEnd: {
-            js: ["node", "express"],
-            php: ["core"]
-        },
-        databases: ["mongo", "MySql", "mssql"],
-        mobileApp: ["react-native"],
+  pronouns: 'He' | 'Him',
+  code: ['javascript', 'react js', 'node js', 'php'],
+  askMeAbout: ['web dev', 'tech', 'app dev'],
+  technologies: {
+    frontEnd: {
+      js: ['react', 'jquery'],
+      css: ['antd', 'mui', 'chakra-ui', 'bootstrap', 'tailwind'],
     },
-    architecture: ["Progressive web applications", "Single page applications", "React Native Mobile Applications"],
-    funFact: "There are two ways to write error-free programs; only the third one works"
+    backEnd: {
+      js: ['node', 'express'],
+      php: ['core'],
+    },
+    databases: ['mongo', 'MySql', 'mssql'],
+    mobileApp: ['react-native'],
+  },
+  architecture: [
+    'Progressive web applications',
+    'Single page applications',
+    'React Native Mobile Applications',
+  ],
+  funFact: 'There are two ways to write error-free programs; only the third one works',
 };
 ```
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
 
 ---
+
 ### Connect with me:
+
 <a title="Github" href="https://github.com/shaxadhere"><img src="https://img.shields.io/github/followers/shaxadhere.svg?label=GitHub&style=social" alt="GitHub"></a>
 <a title="LinkedIn" href="https://www.linkedin.com/in/shaxadhere/"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
 
@@ -85,7 +92,7 @@ const shehzad = {
   <img height="180em" style="max-width:45%;margin: 0 0 7px 10px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shaxadhere&theme=buefy&layout=compact&hide=html,css,hack,ags%20script" />
 </a>
 
-[website]: https://shehzadahmed.tech/
+[website]: https://muhammadsaqlain.netlify.app/
 [twitter]: https://twitter.com/shaxaddd
 [instagram]: https://instagram.com/shaxadd
 [gist]: https://gist.github.com/shaxadhere

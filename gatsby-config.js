@@ -2,10 +2,10 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Shehzad Ahmed - Software Engineer, MERN Stack Developer and Tech Enthusiast',
+    title: 'Muhammad Saqlain - Software Engineer, MERN Stack Developer and Tech Enthusiast',
     description:
-      'Shehzad Ahmed is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://shehzadahmed.tech', // No trailing slash allowed!
+      'Muhammad Saqlain is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+    siteUrl: 'https://muhammadsaqlain.netlify.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@shaxaddd',
   },
@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Shehzad Ahmed',
-        short_name: 'Shehzad Ahmed',
+        name: 'Muhammad Saqlain',
+        short_name: 'Muhammad Saqlain',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,

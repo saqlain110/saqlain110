@@ -61,7 +61,7 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Muhammad Saqlain.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const three = <h3 className="big-heading">I build things for the mobile and web.</h3>;
   const four = (
     <>
       <p>
@@ -76,7 +76,11 @@ const Hero = () => {
     </>
   );
   const five = (
-    <a className="email-link" href="mailto:shaxad.here@gmail.com" target="_blank" rel="noreferrer">
+    <a
+      className="email-link"
+      href="https://www.upwork.com/freelancers/~01d137b456de1c53cc"
+      target="_blank"
+      rel="noreferrer">
       Hire me for your next project!
     </a>
   );

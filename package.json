@@ -2,10 +2,10 @@
   "name": "v4",
   "description": "Personal Website V4",
   "version": "1.0.0",
-  "author": "Muhammad Saqlain <shaxad.here@gmail.com>",
+  "author": "Muhammad Saqlain <saqlain11000@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shaxadhere/shaxadhere"
+    "url": "https://github.com/saqlain110"
   },
   "keywords": [
     "gatsby"

@@ -11,7 +11,7 @@
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...
 
 ```javascript
-const shehzad = {
+const Saqlain = {
   pronouns: 'He' | 'Him',
   code: ['javascript', 'react js', 'node js', 'php'],
   askMeAbout: ['web dev', 'tech', 'app dev'],
@@ -42,8 +42,8 @@ const shehzad = {
 
 ### Connect with me:
 
-<a title="Github" href="https://github.com/shaxadhere"><img src="https://img.shields.io/github/followers/shaxadhere.svg?label=GitHub&style=social" alt="GitHub"></a>
-<a title="LinkedIn" href="https://www.linkedin.com/in/shaxadhere/"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
+<a title="Github" href="https://github.com/saqlain110"><img src="https://img.shields.io/github/followers/saqlain110.svg?label=GitHub&style=social" alt="GitHub"></a>
+<a title="LinkedIn" href="https://www.linkedin.com/in/muhammad-saqlain-ali/"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
 
 [<img align="left" alt="Shexadd | Twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />][twitter]
 [<img align="left" alt="Shexadd | Instagram" src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" />][instagram]
@@ -87,12 +87,12 @@ const shehzad = {
 <br />
 <br />
 
-<a href="https://github.com/Shaxadhere">
-  <img height="180em" style="max-width:45%;" src="https://github-readme-stats.vercel.app/api?username=Shaxadhere&theme=buefy&show_icons=true" />
-  <img height="180em" style="max-width:45%;margin: 0 0 7px 10px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shaxadhere&theme=buefy&layout=compact&hide=html,css,hack,ags%20script" />
+<a href="https://github.com/saqlain110">
+  <img height="180em" style="max-width:45%;" src="https://github-readme-stats.vercel.app/api?username=saqlain110&theme=buefy&show_icons=true" />
+  <img height="180em" style="max-width:45%;margin: 0 0 7px 10px;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saqlain110&theme=buefy&layout=compact&hide=html,css,hack,ags%20script" />
 </a>
 
 [website]: https://muhammadsaqlain.netlify.app/
-[twitter]: https://twitter.com/shaxaddd
-[instagram]: https://instagram.com/shaxadd
-[gist]: https://gist.github.com/shaxadhere
+[twitter]: https://twitter.com/saqlain110
+[instagram]: https://instagram.com/saqlain110
+[gist]: https://gist.github.com/saqlain110

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
-import MeImage from "../../images/me.jpg";
+import MeImage from '../../images/me.png';
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
@@ -126,7 +126,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React.js', 'React Native', 'Nest.js', 'Node.js', 'Next.js', 'MongoDB', 'MySQL', 'PHP', '.Net Core', 'Vue.js'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'TypeScript',
+    'React.js',
+    'React Native',
+    'Nest.js',
+    'Node.js',
+    'Next.js',
+    'MongoDB',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,18 +145,20 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I'm Shehzad, a digital experience builder for web and mobile. My journey into app and web
-              development started in 2017 customizing Wordpress themes, where I learned HTML and CSS and
-              developed an interest in creating engaging digital products. I aim to create responsive and
-              intuitive designs that improve user experience across all devices.
+              I'm Muhammad Saqlain, a skilled full-stack developer with a wealth of experience in
+              React Native, React JS, and Node JS development. With a passion for creating engaging
+              and user-friendly mobile and web applications, I have spent several years mastering
+              the ins and outs of these cutting-edge technologies. I possesses a deep understanding
+              of React Native and React JS frameworks, and I have used these tools to build
+              innovative and high-performing applications for clients in various industries.
             </p>
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
               <a href="https://koderlabs.com/">a huge corporation</a>,{' '}
-              <a href="https://ptax.tax/">a start-up</a>,{' '}
-              <a href="https://artt.edu.pk/">a school</a>, and{' '}
-              <a href="https://finesols.com/">a software & design agency</a>. Currently, my primary goal at <a href="https://koderlabs.com/">Kodelrabs</a> is to construct inclusive and accessible digital products and experiences for diverse clients
+              <a href="https://finesols.com/">a software & design agency</a>. Currently, my primary
+              goal at <a href="https://koderlabs.com/">Kodelrabs</a> is to construct inclusive and
+              accessible digital products and experiences for diverse clients
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -160,13 +171,7 @@ const About = () => {
 
         <StyledPic>
           <div className="wrapper">
-            <img
-              className="img"
-              src={MeImage}
-              width={500}
-              quality={95}
-              alt="Headshot"
-            />
+            <img className="img" src={MeImage} width={500} quality={95} alt="Headshot" />
           </div>
         </StyledPic>
       </div>

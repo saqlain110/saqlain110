@@ -1,26 +1,14 @@
 module.exports = {
-  email: 'shaxad.here@gmail.com',
+  email: 'saqlain11000@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/shaxadhere',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/shaxadd',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/shaxaddd',
+      url: 'https://github.com/saqlain110',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/shaxadhere',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/shaxadd',
+      url: 'https://www.linkedin.com/in/muhammad-saqlain-ali/',
     },
   ],
 

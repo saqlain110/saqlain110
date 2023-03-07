@@ -77,7 +77,7 @@ const Footer = () => {
     if (process.env.NODE_ENV !== 'production') {
       return;
     }
-    fetch('https://api.github.com/repos/shaxadhere/shaxadhere')
+    fetch('https://api.github.com/repos/saqlain110/saqlain110')
       .then(response => response.json())
       .then(json => {
         const { stargazers_count, forks_count } = json;

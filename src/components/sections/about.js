@@ -155,9 +155,8 @@ const About = () => {
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://koderlabs.com/">a huge corporation</a>,{' '}
-              <a href="https://finesols.com/">a software & design agency</a>. Currently, my primary
-              goal at <a href="https://koderlabs.com/">Kodelrabs</a> is to construct inclusive and
+              <a href="https://koderlabs.com/">a huge corporation</a>. Currently, my primary goal at{' '}
+              <a href="https://koderlabs.com/">Kodelrabs</a> is to construct inclusive and
               accessible digital products and experiences for diverse clients
             </p>
 

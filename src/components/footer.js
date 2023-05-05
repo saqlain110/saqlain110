@@ -105,7 +105,7 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <div>Designed &amp; Built by Muhammad Saqlain</div>
+        <div>Designed &amp; Built by Mohammad Saqlain</div>
       </StyledCredit>
     </StyledFooter>
   );

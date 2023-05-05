@@ -145,7 +145,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I'm Muhammad Saqlain, a skilled mern-stack developer with a wealth of experience in
+              I'm Mohammad Saqlain, a skilled mern-stack developer with a wealth of experience in
               React Native, React JS, and Node JS development. With a passion for creating engaging
               and user-friendly mobile and web applications, I have spent several years mastering
               the ins and outs of these cutting-edge technologies. I possesses a deep understanding

@@ -1,4 +1,4 @@
-## Hi there, I'm [Muhammad Saqlain][website] ![](https://github.com/egonelbre/gophers/blob/master/animation/2bit-sprite/run.gif)
+## Hi there, I'm [Mohammad Saqlain][website] ![](https://github.com/egonelbre/gophers/blob/master/animation/2bit-sprite/run.gif)
 
 ### I'm a Software Engineer and Entrepreneur!
 
@@ -42,7 +42,7 @@ const Saqlain = {
 ### Connect with me:
 
 <a title="Github" href="https://github.com/saqlain110"><img src="https://img.shields.io/github/followers/saqlain110.svg?label=GitHub&style=social" alt="GitHub"></a>
-<a title="LinkedIn" href="https://www.linkedin.com/in/muhammad-saqlain-ali/"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
+<a title="LinkedIn" href="https://www.linkedin.com/in/mohammad-saqlain-ali/"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
 
 [<img align="left" alt="Saqlain | Twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />][twitter]
 [<img align="left" alt="Saqlain | Instagram" src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white" />][instagram]

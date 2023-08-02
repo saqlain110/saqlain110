@@ -5,9 +5,9 @@ module.exports = {
     title: 'Mohammad Saqlain - Software Engineer, MERN Stack Developer and Tech Enthusiast',
     description:
       'Mohammad Saqlain is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://muhammadsaqlain.netlify.app', // No trailing slash allowed!
+    siteUrl: 'https://mohammadsaqlain.netlify.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@shaxaddd',
+    twitterUsername: '@saqlain110',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

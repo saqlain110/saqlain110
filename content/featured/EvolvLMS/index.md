@@ -1,7 +1,7 @@
 ---
 date: '4'
 title: 'EvolvLMS'
-cover: './Evolve.png'
+cover: './EvolvLMS.png'
 external: 'https://lms.evolv-systems.com/'
 tech:
   - React js

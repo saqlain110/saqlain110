@@ -2,6 +2,7 @@
 date: '3'
 title: 'Whitetail - Almanac'
 cover: './whitetailAlmanac.png'
+cta: 'https://cp.hunters-edge.com/'
 external: 'https://cp.hunters-edge.com/'
 ios: 'https://apps.apple.com/us/app/whitetail-almanac/id1603886153'
 android: 'https://play.google.com/store/apps/details?id=com.whitetail.almanac&hl=en&gl=US'

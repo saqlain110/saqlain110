@@ -74,16 +74,16 @@ const StyledPic = styled.div`
       }
 
       .img {
-        filter: none;
-        mix-blend-mode: normal;
+        mix-blend-mode: multiply;
+        filter: grayscale(100%) contrast(1);
       }
     }
 
     .img {
       position: relative;
       border-radius: var(--border-radius);
-      mix-blend-mode: multiply;
-      filter: grayscale(100%) contrast(1);
+      filter: none;
+      mix-blend-mode: normal;
       transition: var(--transition);
     }
 

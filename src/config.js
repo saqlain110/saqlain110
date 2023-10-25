@@ -10,6 +10,10 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/mohammad-saqlain-ali/',
     },
+    {
+      name: 'Medium',
+      url: 'https://medium.com/@saqlain11000',
+    },
   ],
 
   navLinks: [

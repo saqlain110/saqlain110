@@ -19,6 +19,7 @@
     "start": "npm run develop",
     "serve": "node --openssl-legacy-provider ./node_modules/gatsby/cli.js serve",
     "clean": "gatsby clean",
+    "postinstall": "node scripts/fix-postcss-exports.js",
     "prepare": "husky install",
     "lint-staged": "lint-staged"
   },

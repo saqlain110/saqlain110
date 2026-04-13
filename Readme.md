@@ -21,7 +21,7 @@ const Saqlain = {
       css: ['antd', 'mui', 'chakra-ui', 'bootstrap', 'tailwind'],
     },
     backEnd: {
-      js: ['node', 'express', 'nest'],
+      js: ['node', 'express'],
     },
     databases: ['mongo', 'MySql'],
     mobileApp: ['react-native'],

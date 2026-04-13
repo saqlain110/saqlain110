@@ -7,9 +7,8 @@ android: 'https://play.google.com/store/apps/details?id=com.the5spheresoffit&hl=
 tech:
   - React
   - React Native
-  - Sql
-  - Nest
   - Javascript
+  - TypeScript
 company: 'Koderlabs'
 showInProjects: false
 ---

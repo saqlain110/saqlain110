@@ -187,7 +187,25 @@ const Jobs = () => {
     }
   `);
 
-  const jobsData = data.jobs.edges;
+  const companyPriority = ['Koderlabs', 'Upwork'];
+  const jobsData = [...data.jobs.edges].sort((a, b) => {
+    const aCompany = a.node.frontmatter.company;
+    const bCompany = b.node.frontmatter.company;
+    const aIndex = companyPriority.indexOf(aCompany);
+    const bIndex = companyPriority.indexOf(bCompany);
+
+    if (aIndex === -1 && bIndex === -1) {
+      return 0;
+    }
+    if (aIndex === -1) {
+      return 1;
+    }
+    if (bIndex === -1) {
+      return -1;
+    }
+
+    return aIndex - bIndex;
+  });
 
   const [activeTabId, setActiveTabId] = useState(0);
   const [tabFocus, setTabFocus] = useState(null);

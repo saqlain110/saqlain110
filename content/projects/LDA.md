@@ -5,8 +5,6 @@ github: ''
 external: 'https://www.digitalrange.com/'
 tech:
   - React.js
-  - Nest.js
-  - MySQL
 company: 'Koderlabs'
 showInProjects: false
 ---

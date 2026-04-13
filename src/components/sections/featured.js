@@ -278,13 +278,14 @@ const Featured = () => {
     {
       featured: allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/content/featured/" } }
-        sort: { fields: [frontmatter___date], order: ASC }
+        sort: { fields: [frontmatter___date], order: DESC }
       ) {
         edges {
           node {
             frontmatter {
               title
               cover {
+                publicURL
                 childImageSharp {
                   gatsbyImageData(width: 700, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
                 }
@@ -292,6 +293,8 @@ const Featured = () => {
               tech
               github
               external
+              ios
+              android
               cta
             }
             html
@@ -325,8 +328,9 @@ const Featured = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover, cta } = frontmatter;
+            const { external, title, tech, github, cover, cta, ios, android } = frontmatter;
             const image = getImage(cover);
+            const projectLink = external || ios || android || github || '#';
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -335,7 +339,7 @@ const Featured = () => {
                     <p className="project-overline">Featured Project</p>
 
                     <h3 className="project-title">
-                      <a href={external}>{title}</a>
+                      <a href={projectLink}>{title}</a>
                     </h3>
 
                     <div
@@ -343,7 +347,7 @@ const Featured = () => {
                       dangerouslySetInnerHTML={{ __html: html }}
                     />
 
-                    {tech.length && (
+                    {tech?.length > 0 && (
                       <ul className="project-tech-list">
                         {tech.map((tech, i) => (
                           <li key={i}>{tech}</li>
@@ -362,6 +366,16 @@ const Featured = () => {
                           <Icon name="GitHub" />
                         </a>
                       )}
+                      {ios && (
+                        <a href={ios} aria-label="Apple App Store Link">
+                          <Icon name="AppStore" />
+                        </a>
+                      )}
+                      {android && (
+                        <a href={android} aria-label="Google Play Store Link">
+                          <Icon name="PlayStore" />
+                        </a>
+                      )}
                       {external && !cta && (
                         <a href={external} aria-label="External Link" className="external">
                           <Icon name="External" />
@@ -372,8 +386,12 @@ const Featured = () => {
                 </div>
 
                 <div className="project-image">
-                  <a href={external ? external : github ? github : '#'}>
-                    <GatsbyImage image={image} alt={title} className="img" />
+                  <a href={projectLink}>
+                    {image ? (
+                      <GatsbyImage image={image} alt={title} className="img" />
+                    ) : (
+                      <img src={cover?.publicURL} alt={title} className="img" />
+                    )}
                   </a>
                 </div>
               </StyledProject>

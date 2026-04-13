@@ -130,9 +130,10 @@ const About = () => {
     'TypeScript',
     'React.js',
     'React Native',
-    'Nest.js',
-    'Node.js',
     'Next.js',
+    'Tailwind CSS',
+    'ShadCN UI',
+    'Node.js',
     'MongoDB',
   ];
 
@@ -144,22 +145,50 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              I'm Mohammad Saqlain, a skilled mern-stack developer with a wealth of experience in
-              React Native, React JS, and Node JS development. With a passion for creating engaging
-              and user-friendly mobile and web applications, I have spent several years mastering
-              the ins and outs of these cutting-edge technologies. I possesses a deep understanding
-              of React Native and React JS frameworks, and I have used these tools to build
-              innovative and high-performing applications for clients in various industries.
+              I&apos;m Mohammad Saqlain, a Senior Frontend Engineer with over 5.5 years of
+              experience architecting scalable web and mobile applications. My expertise is deeply
+              rooted in the React and React Native ecosystems, where I focus on bridging the gap
+              between complex backend systems and seamless, high-performance user experiences.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://koderlabs.com/">a huge corporation</a>. Currently, my primary goal at{' '}
-              <a href="https://koderlabs.com/">Kodelrabs</a> is to construct inclusive and
-              accessible digital products and experiences for diverse clients
+              Throughout my career, I&apos;ve had the privilege of working within large-scale
+              corporate environments and fast-paced labs. Currently, at{' '}
+              <a href="https://koderlabs.com/">Koderlabs</a>, my mission is to build inclusive,
+              accessible, and maintainable digital products. I believe that being a Senior Engineer
+              goes beyond just writing code, I am passionate about performance optimization and
+              mentoring junior developers to ensure our teams ship high-quality systems that stand
+              the test of time.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>What I bring to the table:</p>
+
+            <ul>
+              <li>
+                <strong>Real-Time Collaboration:</strong> I specialize in solving complex
+                synchronization challenges, such as implementing CRDTs (Yjs) via custom SignalR
+                providers to enable Google Docs-style collaborative editing in RFP platforms.
+              </li>
+              <br />
+              <li>
+                <strong>Mobile Mastery:</strong> I deep-dive into native Java/Kotlin when necessary
+                to solve unique UX challenges in React Native, such as manipulating Android Power
+                Manager settings for mission-critical navigation apps.
+              </li>
+              <br />
+              <li>
+                <strong>Performance First:</strong> Whether it&apos;s binary-to-base64 encoding
+                pipelines or update batching logic, I build with the network and the end-user&apos;s
+                device in mind.
+              </li>
+            </ul>
+
+            <p>
+              Today, I continue to push the boundaries of what&apos;s possible on the frontend,
+              ensuring every pixel is accessible and every interaction is fluid.
+            </p>
+
+            <p>Here are a few technologies I&apos;ve been working with recently:</p>
           </div>
 
           <ul className="skills-list">

@@ -8,14 +8,9 @@ android: 'https://play.google.com/store/apps/details?id=com.the5spheresoffit&hl=
 tech:
   - React
   - React Native
-  - Sql
-  - Nest
-  - Javascript
+  - JavaScript
+  - TypeScript
 company: 'Koderlabs'
----
-
----
-
 ---
 
 Introducing the 5 Spheres of Fit App - your ultimate tool for achieving balance and fulfillment in every aspect of your life!

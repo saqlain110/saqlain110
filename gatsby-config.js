@@ -2,9 +2,9 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Mohammad Saqlain - Software Engineer, MERN Stack Developer and Tech Enthusiast',
+    title: 'Mohammad Saqlain - Senior Software Engineer, MERN Stack Developer and Tech Enthusiast',
     description:
-      'Mohammad Saqlain is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+      'Mohammad Saqlain is a senior software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
     siteUrl: 'https://mohammadsaqlain.netlify.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@saqlain110',
@@ -29,7 +29,6 @@ module.exports = {
         icon: 'src/images/logo.png',
       },
     },
-    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

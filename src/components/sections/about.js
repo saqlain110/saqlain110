@@ -63,21 +63,6 @@ const StyledPic = styled.div`
     border-radius: var(--border-radius);
     background-color: var(--green);
 
-    &:hover,
-    &:focus {
-      outline: 0;
-
-      &:after {
-        top: 15px;
-        left: 15px;
-      }
-
-      .img {
-        mix-blend-mode: multiply;
-        filter: grayscale(100%) contrast(1);
-      }
-    }
-
     .img {
       position: relative;
       border-radius: var(--border-radius);

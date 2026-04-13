@@ -1,8 +1,8 @@
 ## Hi there, I'm [Mohammad Saqlain][website] ![](https://github.com/egonelbre/gophers/blob/master/animation/2bit-sprite/run.gif)
 
-### I'm a Software Engineer and Entrepreneur!
+### I'm a Senior Software Engineer and Entrepreneur!
 
-- Currently working as a Software Engineer at Koderlabs
+- Currently working as a Senior Software Engineer at Koderlabs
 - In my spare time, I assist startup in product development and work on my own product ideas
 - I specialize in MERN Stack projects.
 
